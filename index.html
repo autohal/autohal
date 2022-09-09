@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .flex {
+      display: flex;
+      height: 100px;
+      background-color: antiquewhite;
+      justify-content: space-around;
+    }
+    .flex6 {
+      align-self: center;
+    }
+  </style>
+  <body>
+    <p>这个是第一个页面</p>
+    <div style="color: #f8e" class="flex">
+      <p>这个是一个盒子</p>
+      <div class="flex1"><p>111</p></div>
+      <div class="flex2"><p>222</p></div>
+      <div class="flex3"><p>333</p></div>
+      <div class="flex4"><p>444</p></div>
+      <div class="flex5"><p>555</p></div>
+      <div class="flex6"><button onclick="copyText()">复制文本</button></div>
+    </div>
+    <script>
+      function copyText() {
+        window.alert("提示");
+      }
+    </script>
+  </body>
+</html>
